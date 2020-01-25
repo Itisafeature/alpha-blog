@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: real_alpha_blog_production
-  username: real_alpha_blog
-  password: <%= ENV['REAL_ALPHA_BLOG_DATABASE_PASSWORD'] %>
+
